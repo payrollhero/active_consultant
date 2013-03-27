@@ -1,5 +1,9 @@
 require "active_consultant/version"
+require "virtus"
+require "active_model"
 
 module ActiveConsultant
-  # Your code goes here...
 end
+
+require "active_consultant/errors.rb"
+require "active_consultant/base"

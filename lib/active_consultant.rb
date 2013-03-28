@@ -1,3 +1,4 @@
+# This module serves as the main namespace for the gem.
 require "active_consultant/version"
 require "virtus"
 require "active_model"

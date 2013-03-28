@@ -1,3 +1,6 @@
+# This is the base class from which all consultants must inherit.
+# The base class is an abstract class and the child classes must implement a run and a run! method.
+# These 2 methods will perform the task that the consultant is supposed to perform.
 module ActiveConsultant
   class Base
     include Virtus
